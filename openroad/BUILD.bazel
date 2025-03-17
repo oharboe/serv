@@ -17,7 +17,7 @@ filegroup(
     data = [":util.tcl"],
 )
 
-WIDTHS = [1 << i for i in range(0, 6)]
+WIDTHS = [i for i in range(1, 33)]
 
 PDKS = [
     "sky130hd",
